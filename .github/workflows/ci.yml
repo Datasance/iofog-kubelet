@@ -69,7 +69,7 @@ jobs:
       uses: docker/build-push-action@v3
       id: build_push_ghcr
       with:
-        file: Dockerfile.iofog
+        file: Dockerfile
         push: true
         outputs: type=image,name=target,annotation-index.org.opencontainers.image.description=iofog-kubelet
         tags: |
