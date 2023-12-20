@@ -10,7 +10,6 @@ COPY netlify.toml /
 COPY ./cmd /cmd
 COPY ./log /log
 COPY ./hack /hack
-COPY ./.git /.git
 COPY ./trace /trace
 COPY ./vendor /vendor
 COPY ./manager /manager
