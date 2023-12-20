@@ -17,7 +17,7 @@ on:
       - CHANGELOG.md
       - LICENSE
 env:
-  IMAGE_NAME: 'proxy'
+  IMAGE_NAME: 'iofog-kubelet'
 
 jobs:
   build:
